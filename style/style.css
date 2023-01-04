@@ -23,8 +23,30 @@
     background-color: brown;
     margin-top: 12px;
     padding-bottom: 20px;
+    position: absolute;
     display:none;
 }
-li:hover{
+.nav li:hover .second_nav{
     display: block;
+    position: absolute;
+}
+.second_nav li>:hover{
+background-color: blue;
+
+padding: 10px;
+}
+.second_nav li a{
+    padding: 0px 10px;
+    padding: 5px 10px;
+}
+.second_nav{
+    padding-left: 0px;
+    padding-right: 6px;
+
+}
+.second_nav li{
+    padding: 10px;
+}
+nav{
+    text-align: center;
 }
